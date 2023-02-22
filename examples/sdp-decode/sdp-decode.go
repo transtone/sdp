@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"gortc.io/sdp"
+	"github.com/transtone/sdp"
 )
 
 func main() {

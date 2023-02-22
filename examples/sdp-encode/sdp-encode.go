@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"gortc.io/sdp"
+	"github.com/transtone/sdp"
 )
 
 func main() {

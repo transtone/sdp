@@ -1,16 +1,16 @@
-[![Master status](https://tc.gortc.io/app/rest/builds/buildType:(id:sdp_MasterStatus)/statusIcon.svg)](https://tc.gortc.io/project.html?projectId=sdp&tab=projectOverview&guest=1)
+[![Master status](https://tc.github.com/transtone/app/rest/builds/buildType:(id:sdp_MasterStatus)/statusIcon.svg)](https://tc.github.com/transtone/project.html?projectId=sdp&tab=projectOverview&guest=1)
 [![codecov](https://codecov.io/gh/gortc/sdp/branch/master/graph/badge.svg)](https://codecov.io/gh/gortc/sdp)
-[![GoDoc](https://godoc.org/gortc.io/sdp?status.svg)](https://godoc.org/gortc.io/sdp)
+[![GoDoc](https://godoc.org/github.com/transtone/sdp?status.svg)](https://godoc.org/github.com/transtone/sdp)
 
 
 # SDP
 Package sdp implements SDP: Session Description Protocol [[RFC4566](https://tools.ietf.org/html/rfc4566)].
-Complies to [gortc principles](https://gortc.io/#principles) as core package.
+Complies to [gortc principles](https://github.com/transtone/#principles) as core package.
 
 ### Examples
 See [examples](https://github.com/gortc/sdp/tree/master/examples) folder.
-Also there is [online SDP example](https://gortc.io/x/sdp/) that gets
-`RTCPeerConnection.localDescription.sdp` using WebRTC, 
+Also there is [online SDP example](https://github.com/transtone/x/sdp/) that gets
+`RTCPeerConnection.localDescription.sdp` using WebRTC,
 sends it to server, decodes as `sdp.Session` and renders it on web page.
 
 SDP example:
@@ -42,8 +42,8 @@ import (
 	"fmt"
 	"net"
 	"time"
-	
-	"gortc.io/sdp"
+
+	"github.com/transtone/sdp"
 )
 
 func main()  {
@@ -135,7 +135,7 @@ import (
 	"log"
 	"os"
 
-	"gortc.io/sdp"
+	"github.com/transtone/sdp"
 )
 
 func main() {
@@ -180,7 +180,7 @@ package main
 import (
 	"fmt"
 
-	"gortc.io/sdp"
+	"github.com/transtone/sdp"
 )
 
 func main() {

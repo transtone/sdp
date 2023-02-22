@@ -3,7 +3,7 @@ lint:
 	@golangci-lint run
 	@echo "ok"
 install:
-	go get gortc.io/api
+	go get github.com/transtone/api
 	go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 format:
 	goimports -w .

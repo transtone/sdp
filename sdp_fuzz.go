@@ -9,7 +9,7 @@ import "fmt"
 // 1. Get
 //    go get -u github.com/dvyukov/go-fuzz/...
 // 2. Build
-//    go-fuzz-build gortc.io/sdp
+//    go-fuzz-build github.com/transtone/sdp
 // 3. Run
 //    go-fuzz --bin=sdp-fuzz.zip --workdir=fuzz
 

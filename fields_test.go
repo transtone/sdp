@@ -448,11 +448,11 @@ func TestGetAddressType(t *testing.T) {
 			out: "IP4",
 		},
 		{
-			addr: "gortc.io",
+			addr: "github.com/transtone",
 			out:  "IP4",
 		},
 		{
-			addr:        "gortc.io",
+			addr:        "github.com/transtone",
 			addressType: "IP6",
 			out:         "IP6",
 		},

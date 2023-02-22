@@ -13,7 +13,7 @@ import (
 	"github.com/chromedp/chromedp"
 	"github.com/chromedp/chromedp/runner"
 
-	"gortc.io/sdp"
+	"github.com/transtone/sdp"
 )
 
 var (
